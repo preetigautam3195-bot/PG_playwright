@@ -1,0 +1,25 @@
+
+[
+    {
+        "scenario":"verify valid fullname and valid password in form submission",
+        "FullName":"preeti gautam",
+        "EmailAddress":"preetigautam3195@gmail.com",
+        "Password":"Preeti@3195",
+        "PhoneNumber":"9351591383",
+        "Age":"30",
+        "Country":"India",
+        "BioAboutMe":"I am a automation learner",
+        "successMessage":"success-message"
+    },
+    {
+        "scenario":"verify empty fullname and empty password in form submission",
+        "FullName":"preeti gautam",
+        "EmailAddress":"preetigautam3195@gmail.com",
+        "Password":"Preeti@3195",
+        "PhoneNumber":"9351591383",
+        "Age":"30",
+        "Country":"India",
+        "BioAboutMe":"I am a automation learner",
+        "errorMsg":"Please fill in all required fields."
+    }
+]
