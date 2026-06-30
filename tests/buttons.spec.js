@@ -12,13 +12,9 @@ test.beforeAll("", async({}) => {
     page1 = await context1.newPage();
     await page1.goto("file:///C:/Users/Preeti%20Gautam/PycharmProjects/PythonProject/Test1/automation-practice-master/app/index.html");
     await page1.getByText("Button Interactions").click();
-})
+});
 
-test.beforeEach("" , async() => {
-
-})
-
-test.only("validate basic button functionality @smoke", async() => {
+test("validate basic button functionality @smoke", async() => {
     const button = new buttonpage(page1);
     button.clickOnPrimaryButton();
     await page1.waitForTimeout(1000);
